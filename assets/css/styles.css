@@ -46,3 +46,33 @@ pre {
     background-color: rgb(243, 242, 242);
     color: rgb(255, 41, 76);
 }
+
+/* Media Queries */
+
+@media (max-width:1028px) {
+
+    .sidenav{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 20%;
+        background-color: rgb(248, 244, 228);
+    }
+
+    .navbar-brand.nav-item {
+        float: right;
+        text-align: center;
+        padding: 0px 16px;
+        font-size: 0.7rem;
+        text-decoration: none;
+    }
+
+    #main-doc {
+        margin-top: 20%;
+        margin-left: 0px;
+        padding: 0px 20px;
+}
+
+
+
+}
