@@ -1,4 +1,4 @@
-/* Side Navbar style */
+/* Side Navbar Style */
 .sidenav {
     height: 100%;
     width: 200px;
@@ -24,10 +24,25 @@
    font-weight: bold;
    color: black;
 }
-#main-doc {
-   
-        margin-left: 200px; 
-        font-size: 20px; 
-        padding: 0px 10px;
 
+/* Body Of Doc */
+#main-doc {
+        margin-left: 200px;
+        padding: 0px 20px;
+}
+header {
+    padding: 20px 0px;
+    font-size:1.3rem;
+    font-weight: bold;
+}
+
+p, li {
+    font-size: 1rem;
+}
+
+pre {
+    font-size: 1rem;
+    padding: 15px;
+    background-color: rgb(243, 242, 242);
+    color: rgb(255, 41, 76);
 }
